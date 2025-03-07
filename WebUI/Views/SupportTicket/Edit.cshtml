@@ -1,0 +1,107 @@
+﻿ @model WebUI.Models.SupportTicketViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","SupportTicket")" class="btn btn-success">SupportTicket List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "SupportTicket", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model.Id, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>Ticket</label>
+@Html.TextBoxFor(model => model.Ticket, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Ticket, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Description</label>
+@Html.TextBoxFor(model => model.Description, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Description, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Severity</label>
+@Html.TextBoxFor(model => model.Severity, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Severity, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Due Date</label>
+@Html.TextBoxFor(model => model.DueDate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.DueDate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>service</label>
+@Html.DropDownListFor(model => model.ServiceId, Model.Dropdownservice," Select service", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.ServiceId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Status</label>
+@Html.TextBoxFor(model => model.Status, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Status, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Comment</label>
+@Html.TextBoxFor(model => model.Comment, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Comment, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Vendor Employee Id</label>
+@Html.TextBoxFor(model => model.VendorEmployeeId, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.VendorEmployeeId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>vendor</label>
+@Html.DropDownListFor(model => model.VendorId, Model.Dropdownvendor," Select vendor", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.VendorId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 

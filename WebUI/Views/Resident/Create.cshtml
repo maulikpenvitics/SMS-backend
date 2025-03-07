@@ -1,0 +1,124 @@
+﻿@model WebUI.Models.ResidentViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    (function () {
+        $("form").validate();
+    });
+</script>
+
+<div class="container" style="background-color: #f2edf3; padding: 20px; border-radius: 10px;">
+    <div class="row">
+        <div class="col-14 mb-3">
+            <a href="@Url.Action("List","Resident")" class="btn btn-success">Resident List</a>
+        </div>
+        <div class="col-12">
+            @using (Html.BeginForm("Submit", "Resident", FormMethod.Post))
+            {
+                <div class="col-sm-18">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Username</label>
+                                @Html.TextBoxFor(model => model.Username, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Username, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Password</label>
+                                @Html.TextBoxFor(model => model.Password, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Password, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Firstname</label>
+                                @Html.TextBoxFor(model => model.Firstname, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Firstname, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Lastname</label>
+                                @Html.TextBoxFor(model => model.Lastname, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Lastname, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Email</label>
+                                @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Email, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Phoneno</label>
+                                @Html.TextBoxFor(model => model.Phoneno, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Phoneno, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Detailed Info</label>
+                                @Html.TextBoxFor(model => model.Detailedinfo, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Detailedinfo, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Property</label>
+                                @Html.DropDownListFor(model => model.PropertyId, Model.DropdownProperty, "Select Property", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.PropertyId, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Block</label>
+                                @Html.DropDownListFor(model => model.BlockId, Model.DropdownBlock, "Select Block", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.BlockId, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Unit</label>
+                                @Html.DropDownListFor(model => model.UnitId, Model.DropdownUnit, "Select Unit", new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.UnitId, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        @*<div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Modified By</label>
+                                @Html.TextBoxFor(model => model.Modifiedby, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Modified Date</label>
+                                @Html.TextBoxFor(model => model.Modifieddate, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class = "text-danger" })
+                            </div>
+                        </div>*@
+                    </div>
+
+                    @if (!string.IsNullOrEmpty(ViewBag.error))
+                    {
+                        <div class="text-danger">
+                            @ViewBag.error
+                        </div>
+                    }
+
+                    <div class="col-sm-12 text-center mt-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    
+                </div>
+            }
+
+        </div>
+    </div>
+</div>

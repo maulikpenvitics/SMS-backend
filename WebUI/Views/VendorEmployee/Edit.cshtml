@@ -1,0 +1,113 @@
+﻿ @model WebUI.Models.VendorEmployeeViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","VendorEmployee")" class="btn btn-success">VendorEmployee List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "VendorEmployee", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model.VendorEmployeeId, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>vendor</label>
+@Html.DropDownListFor(model => model.VendorId, Model.Dropdownvendor," Select vendor", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.VendorId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Id</label>
+@Html.TextBoxFor(model => model.Id, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Id, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Firstname</label>
+@Html.TextBoxFor(model => model.Firstname, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Firstname, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Lastname</label>
+@Html.TextBoxFor(model => model.Lastname, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Lastname, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Phoneno</label>
+@Html.TextBoxFor(model => model.Phoneno, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Phoneno, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Address 1</label>
+@Html.TextBoxFor(model => model.Address1, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Address1, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Address 2</label>
+@Html.TextBoxFor(model => model.Address2, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Address2, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>City</label>
+@Html.DropDownListFor(model => model.Cityid, Model.DropdownCity," Select City", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Cityid, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>State</label>
+@Html.DropDownListFor(model => model.Stateid, Model.DropdownState," Select State", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Stateid, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Country</label>
+@Html.DropDownListFor(model => model.Countryid, Model.DropdownCountry," Select Country", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Countryid, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 

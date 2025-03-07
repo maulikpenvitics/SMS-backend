@@ -1,0 +1,65 @@
+﻿ @model WebUI.Models.BlockViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ 
+ <script>
+        (function () {
+            ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+          <br />
+            <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","Block")" class="btn btn-success">Block List</a>
+            </div>
+            <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "Block", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="col-sm-4"><div class="form-group">
+<label>Blockname</label>
+@Html.TextBoxFor(model => model.Blockname, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.Blockname, null, new { @class = "error" }) 
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Property</label>
+ @Html.DropDownListFor(model => model.PropertyId, Model.DropdownProperty," Select Property", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.PropertyId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class = "error" }) 
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class = "error" }) 
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    
+                    <div class="col-sm-12">
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                   
+                }
+            </div>
+        </div>
+    </div>
+ 

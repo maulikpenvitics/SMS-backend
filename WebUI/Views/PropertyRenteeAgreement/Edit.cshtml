@@ -1,0 +1,95 @@
+﻿ @model WebUI.Models.PropertyRenteeAgreementViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","PropertyRenteeAgreement")" class="btn btn-success">PropertyRenteeAgreement List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "PropertyRenteeAgreement", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model.Id, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>Property Id</label>
+@Html.TextBoxFor(model => model.PropertyId, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.PropertyId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Block Id</label>
+@Html.TextBoxFor(model => model.BlockId, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.BlockId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Unitid</label>
+@Html.TextBoxFor(model => model.Unitid, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Unitid, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Agreementurl</label>
+@Html.TextBoxFor(model => model.Agreementurl, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Agreementurl, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>PropertyRentee</label>
+@Html.DropDownListFor(model => model.PropertyRenteeId, Model.DropdownPropertyRentee," Select PropertyRentee", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.PropertyRenteeId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Agreementstartdate</label>
+@Html.TextBoxFor(model => model.Agreementstartdate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Agreementstartdate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Agreementenddate</label>
+@Html.TextBoxFor(model => model.Agreementenddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Agreementenddate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 

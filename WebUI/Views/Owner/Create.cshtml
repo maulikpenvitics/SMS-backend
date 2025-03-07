@@ -1,0 +1,102 @@
+﻿@model WebUI.Models.OwnerViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    (function () {
+        $("form").validate();
+    });
+</script>
+
+<div class="container" style="background-color: #f2edf3; padding: 10px; border-radius: 10px;">
+    <div class="row">
+        <div class="col-14 mb-3">
+            <a href="@Url.Action("List", "Owner")" class="btn btn-success" style="padding: 5px 10px; font-size: 14px;">Owner List</a>
+        </div>
+        <div class="col-12">
+            @using (Html.BeginForm("Submit", "Owner", FormMethod.Post))
+            {
+                <div class="col-sm-18">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Block Name</label>
+                                @Html.DropDownListFor(model => model.Blockname, Model.DropdownBlock, "Select Block", new { @class = "form-control", id = "blockDropdown", required = "required" })
+                                @Html.ValidationMessageFor(model => model.Blockname, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Unit Name</label>
+                                <select id="unitDropdown" name="Unitname" class="form-control" required>
+                                    <option value="">Select Unit</option>
+                                </select>
+                                @Html.ValidationMessageFor(model => model.Unitname, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Resident Name</label>
+                                @Html.TextBoxFor(model => model.Residentname, new { @class = "form-control", @readonly = "readonly", id = "residentName" })
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (!string.IsNullOrEmpty(ViewBag.error))
+                    {
+                        <div class="text-danger">
+                            @ViewBag.error
+                        </div>
+                    }
+
+                    <div class="col-sm-12 text-center">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#blockDropdown").change(function () {
+            var blockName = $(this).val();
+            $("#unitDropdown").html('<option value="">Select Unit</option>'); // Reset Unit dropdown
+
+            if (blockName) {
+                $.ajax({
+                    url: "@Url.Action("GetUnitsByBlock", "Owner")",
+                    type: "GET",
+                    data: { blockName: blockName },
+                    success: function (response) {
+                        if (response.length > 0) {
+                            $.each(response, function (index, unit) {
+                                $("#unitDropdown").append('<option value="' + unit.Value + '">' + unit.Text + '</option>');
+                            });
+                        }
+                    },
+                    error: function () {
+                        alert("Error fetching units.");
+                    }
+                });
+            }
+        });
+
+        $("#blockDropdown, #unitDropdown").on("change", function () {
+            var blockName = $("#blockDropdown").val();
+            var unitName = $("#unitDropdown").val();
+
+            if (blockName && unitName) {
+                $.getJSON("@Url.Action("GetResidentByBlockAndUnit", "Owner")", { blockName: blockName, unitName: unitName }, function (data) {
+                    if (data) {
+                        $("#residentName").val(data.Firstname + " " + data.Lastname);
+                    } else {
+                        $("#residentName").val("No Resident Found");
+                    }
+                });
+            }
+        });
+    });
+</script>

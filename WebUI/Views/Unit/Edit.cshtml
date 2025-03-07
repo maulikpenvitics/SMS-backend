@@ -1,0 +1,57 @@
+﻿@model WebUI.Models.UnitViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    (function () {
+        ("form").validate();
+    });
+</script>
+
+<div class="container">
+    <div class="row">
+        <br />
+        <br />
+        <div class="col-12">
+            <a href="@Url.Action("List", "Unit")" class="btn btn-success">Unit List</a>
+        </div>
+        <br />
+        <div class="col-12">
+            @using (Html.BeginForm("Submit", "Unit", FormMethod.Post))
+                        {
+            <div class="col-sm-12">
+                <div class="form-group" hidden>
+                    <label>Id</label>
+                    @Html.TextBoxFor(model => model.Id, new { @class = "form-control" })
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label>Unit Name</label>
+                        @Html.TextBoxFor(model => model.Unitname, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Unitname, null, new { @class = "error" })
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label>Block</label>
+                        @Html.DropDownListFor(model => model.BlockId, Model.DropdownBlock, "Select Block", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.BlockId, null, new { @class = "error" })
+                    </div>
+                </div>
+
+                @if (ViewBag.error != "")
+{
+                    <div>
+                        @ViewBag.error
+                    </div>
+}
+            </div>
+            <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+                        }
+        </div>
+    </div>
+</div>

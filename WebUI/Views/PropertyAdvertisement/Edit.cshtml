@@ -1,0 +1,101 @@
+﻿ @model WebUI.Models.PropertyAdvertisementViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","PropertyAdvertisement")" class="btn btn-success">PropertyAdvertisement List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "PropertyAdvertisement", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model.Id, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>Property</label>
+@Html.DropDownListFor(model => model.PropertyId, Model.DropdownProperty," Select Property", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.PropertyId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Location</label>
+@Html.TextBoxFor(model => model.Location, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Location, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Fromdate</label>
+@Html.TextBoxFor(model => model.Fromdate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Fromdate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Todate</label>
+@Html.TextBoxFor(model => model.Todate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Todate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Amount</label>
+@Html.TextBoxFor(model => model.Amount, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Amount, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Companyname</label>
+@Html.TextBoxFor(model => model.Companyname, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Companyname, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Advertisorfirstname</label>
+@Html.TextBoxFor(model => model.Advertisorfirstname, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Advertisorfirstname, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Advertisorlastname</label>
+@Html.TextBoxFor(model => model.Advertisorlastname, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Advertisorlastname, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 

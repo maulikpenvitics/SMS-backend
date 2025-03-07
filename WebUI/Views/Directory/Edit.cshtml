@@ -1,0 +1,71 @@
+﻿ @model WebUI.Models.DirectoryViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","Directory")" class="btn btn-success">Directory List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "Directory", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model.Id, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>Discription</label>
+@Html.TextBoxFor(model => model.Discription, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Discription, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Bussinessid</label>
+@Html.TextBoxFor(model => model.Bussinessid, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Bussinessid, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Visitor</label>
+@Html.DropDownListFor(model => model.VisitorId, Model.DropdownVisitor," Select Visitor", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.VisitorId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 

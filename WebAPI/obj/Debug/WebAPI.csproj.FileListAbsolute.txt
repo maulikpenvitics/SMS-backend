@@ -1,0 +1,828 @@
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\WebAPI.dll.config
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\WebAPI.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\WebAPI.pdb
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csc.exe
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csc.exe.config
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csc.rsp
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csi.exe
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csi.exe.config
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csi.rsp
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.AppContext.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Console.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Globalization.Calendars.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.IO.Compression.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Net.Http.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Net.Sockets.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.ValueTuple.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Xml.XPath.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\vbc.exe
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\vbc.exe.config
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\vbc.rsp
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\VBCSCompiler.exe
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Antlr3.Runtime.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Newtonsoft.Json.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Net.Http.Formatting.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Helpers.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Http.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Http.WebHost.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Mvc.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Optimization.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Razor.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.Deployment.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.Razor.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\WebGrease.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Newtonsoft.Json.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Net.Http.Formatting.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Helpers.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Http.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Http.WebHost.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Mvc.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Optimization.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Razor.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.Deployment.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.Razor.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Antlr3.Runtime.pdb
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.pdb
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlcese40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlceqp40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlceme40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlceer40EN.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlcecompact40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlceca40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlcese40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlceqp40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlceme40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlceer40EN.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlcecompact40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlceca40.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.SqlServer.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.SqlServerCompact.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\System.Data.SqlServerCe.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.SqlServer.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.SqlServerCompact.xml
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Data.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Domain.dll
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Data.pdb
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Data.dll.config
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Domain.pdb
+E:\Envitics_Work_Space\Cloned_Project\GreenEmerland\GreenEmerland\WebAPI\bin\Domain.dll.config
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\WebAPI.dll.config
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\WebAPI.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\WebAPI.pdb
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csc.exe
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csc.exe.config
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csc.rsp
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csi.exe
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csi.exe.config
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\csi.rsp
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.AppContext.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Console.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Globalization.Calendars.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.IO.Compression.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Net.Http.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Net.Sockets.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.ValueTuple.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Xml.XPath.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\vbc.exe
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\vbc.exe.config
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\vbc.rsp
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\VBCSCompiler.exe
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlcese40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlceqp40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlceme40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlceer40EN.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlcecompact40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\x86\sqlceca40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlcese40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlceqp40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlceme40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlceer40EN.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlcecompact40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\sqlceca40.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Antlr3.Runtime.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Data.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Domain.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.SqlServer.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.SqlServerCompact.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Newtonsoft.Json.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Data.SqlServerCe.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Net.Http.Formatting.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Helpers.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Http.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Http.WebHost.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Mvc.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Optimization.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Razor.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.Deployment.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.Razor.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\WebGrease.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Data.pdb
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Data.dll.config
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Domain.pdb
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Domain.dll.config
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.SqlServer.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\EntityFramework.SqlServerCompact.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Newtonsoft.Json.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Net.Http.Formatting.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Helpers.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Http.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Http.WebHost.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Mvc.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Optimization.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.Razor.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.Deployment.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\System.Web.WebPages.Razor.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Antlr3.Runtime.pdb
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.dll
+E:\Project\GreenEmerland\GreenEmerland\GreenEmerland\WebAPI\obj\Debug\WebAPI.pdb
+E:\Project\RMS\WebAPI\bin\WebAPI.dll.config
+E:\Project\RMS\WebAPI\bin\WebAPI.dll
+E:\Project\RMS\WebAPI\bin\WebAPI.pdb
+E:\Project\RMS\WebAPI\bin\roslyn\csc.exe
+E:\Project\RMS\WebAPI\bin\roslyn\csc.exe.config
+E:\Project\RMS\WebAPI\bin\roslyn\csc.rsp
+E:\Project\RMS\WebAPI\bin\roslyn\csi.exe
+E:\Project\RMS\WebAPI\bin\roslyn\csi.exe.config
+E:\Project\RMS\WebAPI\bin\roslyn\csi.rsp
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project\RMS\WebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.AppContext.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Console.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Globalization.Calendars.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.IO.Compression.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Net.Http.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Net.Sockets.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.ValueTuple.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Xml.XPath.dll
+E:\Project\RMS\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Project\RMS\WebAPI\bin\roslyn\vbc.exe
+E:\Project\RMS\WebAPI\bin\roslyn\vbc.exe.config
+E:\Project\RMS\WebAPI\bin\roslyn\vbc.rsp
+E:\Project\RMS\WebAPI\bin\roslyn\VBCSCompiler.exe
+E:\Project\RMS\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\Project\RMS\WebAPI\bin\x86\sqlcese40.dll
+E:\Project\RMS\WebAPI\bin\x86\sqlceqp40.dll
+E:\Project\RMS\WebAPI\bin\x86\sqlceme40.dll
+E:\Project\RMS\WebAPI\bin\x86\sqlceer40EN.dll
+E:\Project\RMS\WebAPI\bin\x86\sqlcecompact40.dll
+E:\Project\RMS\WebAPI\bin\x86\sqlceca40.dll
+E:\Project\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\Project\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\Project\RMS\WebAPI\bin\amd64\sqlcese40.dll
+E:\Project\RMS\WebAPI\bin\amd64\sqlceqp40.dll
+E:\Project\RMS\WebAPI\bin\amd64\sqlceme40.dll
+E:\Project\RMS\WebAPI\bin\amd64\sqlceer40EN.dll
+E:\Project\RMS\WebAPI\bin\amd64\sqlcecompact40.dll
+E:\Project\RMS\WebAPI\bin\amd64\sqlceca40.dll
+E:\Project\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\Project\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\Project\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Project\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Project\RMS\WebAPI\bin\Antlr3.Runtime.dll
+E:\Project\RMS\WebAPI\bin\Data.dll
+E:\Project\RMS\WebAPI\bin\Domain.dll
+E:\Project\RMS\WebAPI\bin\EntityFramework.dll
+E:\Project\RMS\WebAPI\bin\EntityFramework.SqlServer.dll
+E:\Project\RMS\WebAPI\bin\EntityFramework.SqlServerCompact.dll
+E:\Project\RMS\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project\RMS\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\Project\RMS\WebAPI\bin\Newtonsoft.Json.dll
+E:\Project\RMS\WebAPI\bin\System.Data.SqlServerCe.dll
+E:\Project\RMS\WebAPI\bin\System.Net.Http.Formatting.dll
+E:\Project\RMS\WebAPI\bin\System.Web.Helpers.dll
+E:\Project\RMS\WebAPI\bin\System.Web.Http.dll
+E:\Project\RMS\WebAPI\bin\System.Web.Http.WebHost.dll
+E:\Project\RMS\WebAPI\bin\System.Web.Mvc.dll
+E:\Project\RMS\WebAPI\bin\System.Web.Optimization.dll
+E:\Project\RMS\WebAPI\bin\System.Web.Razor.dll
+E:\Project\RMS\WebAPI\bin\System.Web.WebPages.Deployment.dll
+E:\Project\RMS\WebAPI\bin\System.Web.WebPages.dll
+E:\Project\RMS\WebAPI\bin\System.Web.WebPages.Razor.dll
+E:\Project\RMS\WebAPI\bin\WebGrease.dll
+E:\Project\RMS\WebAPI\bin\Data.pdb
+E:\Project\RMS\WebAPI\bin\Data.dll.config
+E:\Project\RMS\WebAPI\bin\Domain.pdb
+E:\Project\RMS\WebAPI\bin\Domain.dll.config
+E:\Project\RMS\WebAPI\bin\EntityFramework.xml
+E:\Project\RMS\WebAPI\bin\EntityFramework.SqlServer.xml
+E:\Project\RMS\WebAPI\bin\EntityFramework.SqlServerCompact.xml
+E:\Project\RMS\WebAPI\bin\Newtonsoft.Json.xml
+E:\Project\RMS\WebAPI\bin\System.Net.Http.Formatting.xml
+E:\Project\RMS\WebAPI\bin\System.Web.Helpers.xml
+E:\Project\RMS\WebAPI\bin\System.Web.Http.xml
+E:\Project\RMS\WebAPI\bin\System.Web.Http.WebHost.xml
+E:\Project\RMS\WebAPI\bin\System.Web.Mvc.xml
+E:\Project\RMS\WebAPI\bin\System.Web.Optimization.xml
+E:\Project\RMS\WebAPI\bin\System.Web.Razor.xml
+E:\Project\RMS\WebAPI\bin\System.Web.WebPages.xml
+E:\Project\RMS\WebAPI\bin\System.Web.WebPages.Deployment.xml
+E:\Project\RMS\WebAPI\bin\System.Web.WebPages.Razor.xml
+E:\Project\RMS\WebAPI\bin\Antlr3.Runtime.pdb
+E:\Project\RMS\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project\RMS\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
+E:\Project\RMS\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+E:\Project\RMS\WebAPI\obj\Debug\WebAPI.csproj.CopyComplete
+E:\Project\RMS\WebAPI\obj\Debug\WebAPI.dll
+E:\Project\RMS\WebAPI\obj\Debug\WebAPI.pdb
+D:\User\RMS\WebAPI\bin\WebAPI.dll.config
+D:\User\RMS\WebAPI\bin\WebAPI.dll
+D:\User\RMS\WebAPI\bin\WebAPI.pdb
+D:\User\RMS\WebAPI\bin\roslyn\csc.exe
+D:\User\RMS\WebAPI\bin\roslyn\csc.exe.config
+D:\User\RMS\WebAPI\bin\roslyn\csc.rsp
+D:\User\RMS\WebAPI\bin\roslyn\csi.exe
+D:\User\RMS\WebAPI\bin\roslyn\csi.exe.config
+D:\User\RMS\WebAPI\bin\roslyn\csi.rsp
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\User\RMS\WebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.AppContext.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Console.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Globalization.Calendars.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.IO.Compression.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Net.Http.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Net.Sockets.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.ValueTuple.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Xml.XPath.dll
+D:\User\RMS\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\User\RMS\WebAPI\bin\roslyn\vbc.exe
+D:\User\RMS\WebAPI\bin\roslyn\vbc.exe.config
+D:\User\RMS\WebAPI\bin\roslyn\vbc.rsp
+D:\User\RMS\WebAPI\bin\roslyn\VBCSCompiler.exe
+D:\User\RMS\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\User\RMS\WebAPI\bin\x86\sqlcese40.dll
+D:\User\RMS\WebAPI\bin\x86\sqlceqp40.dll
+D:\User\RMS\WebAPI\bin\x86\sqlceme40.dll
+D:\User\RMS\WebAPI\bin\x86\sqlceer40EN.dll
+D:\User\RMS\WebAPI\bin\x86\sqlcecompact40.dll
+D:\User\RMS\WebAPI\bin\x86\sqlceca40.dll
+D:\User\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\User\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\User\RMS\WebAPI\bin\amd64\sqlcese40.dll
+D:\User\RMS\WebAPI\bin\amd64\sqlceqp40.dll
+D:\User\RMS\WebAPI\bin\amd64\sqlceme40.dll
+D:\User\RMS\WebAPI\bin\amd64\sqlceer40EN.dll
+D:\User\RMS\WebAPI\bin\amd64\sqlcecompact40.dll
+D:\User\RMS\WebAPI\bin\amd64\sqlceca40.dll
+D:\User\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\User\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\User\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\User\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\User\RMS\WebAPI\bin\Antlr3.Runtime.dll
+D:\User\RMS\WebAPI\bin\Data.dll
+D:\User\RMS\WebAPI\bin\Domain.dll
+D:\User\RMS\WebAPI\bin\EntityFramework.dll
+D:\User\RMS\WebAPI\bin\EntityFramework.SqlServer.dll
+D:\User\RMS\WebAPI\bin\EntityFramework.SqlServerCompact.dll
+D:\User\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\User\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\User\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\User\RMS\WebAPI\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\User\RMS\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.Options.dll
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.Primitives.dll
+D:\User\RMS\WebAPI\bin\Microsoft.Net.Http.Headers.dll
+D:\User\RMS\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\User\RMS\WebAPI\bin\Newtonsoft.Json.Bson.dll
+D:\User\RMS\WebAPI\bin\Newtonsoft.Json.dll
+D:\User\RMS\WebAPI\bin\System.Buffers.dll
+D:\User\RMS\WebAPI\bin\System.Data.SqlServerCe.dll
+D:\User\RMS\WebAPI\bin\System.Diagnostics.DiagnosticSource.dll
+D:\User\RMS\WebAPI\bin\System.Memory.dll
+D:\User\RMS\WebAPI\bin\System.Net.Http.Formatting.dll
+D:\User\RMS\WebAPI\bin\System.Numerics.Vectors.dll
+D:\User\RMS\WebAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\User\RMS\WebAPI\bin\System.Text.Encodings.Web.dll
+D:\User\RMS\WebAPI\bin\System.Threading.Tasks.Extensions.dll
+D:\User\RMS\WebAPI\bin\System.ValueTuple.dll
+D:\User\RMS\WebAPI\bin\System.Web.Cors.dll
+D:\User\RMS\WebAPI\bin\System.Web.Helpers.dll
+D:\User\RMS\WebAPI\bin\System.Web.Http.Cors.dll
+D:\User\RMS\WebAPI\bin\System.Web.Http.dll
+D:\User\RMS\WebAPI\bin\System.Web.Http.WebHost.dll
+D:\User\RMS\WebAPI\bin\System.Web.Mvc.dll
+D:\User\RMS\WebAPI\bin\System.Web.Optimization.dll
+D:\User\RMS\WebAPI\bin\System.Web.Razor.dll
+D:\User\RMS\WebAPI\bin\System.Web.WebPages.Deployment.dll
+D:\User\RMS\WebAPI\bin\System.Web.WebPages.dll
+D:\User\RMS\WebAPI\bin\System.Web.WebPages.Razor.dll
+D:\User\RMS\WebAPI\bin\WebGrease.dll
+D:\User\RMS\WebAPI\bin\Data.pdb
+D:\User\RMS\WebAPI\bin\Data.dll.config
+D:\User\RMS\WebAPI\bin\Domain.pdb
+D:\User\RMS\WebAPI\bin\Domain.dll.config
+D:\User\RMS\WebAPI\bin\EntityFramework.xml
+D:\User\RMS\WebAPI\bin\EntityFramework.SqlServer.xml
+D:\User\RMS\WebAPI\bin\EntityFramework.SqlServerCompact.xml
+D:\User\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\User\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\User\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\User\RMS\WebAPI\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.Options.xml
+D:\User\RMS\WebAPI\bin\Microsoft.Extensions.Primitives.xml
+D:\User\RMS\WebAPI\bin\Microsoft.Net.Http.Headers.xml
+D:\User\RMS\WebAPI\bin\Newtonsoft.Json.xml
+D:\User\RMS\WebAPI\bin\Newtonsoft.Json.Bson.pdb
+D:\User\RMS\WebAPI\bin\Newtonsoft.Json.Bson.xml
+D:\User\RMS\WebAPI\bin\System.Buffers.xml
+D:\User\RMS\WebAPI\bin\System.Diagnostics.DiagnosticSource.xml
+D:\User\RMS\WebAPI\bin\System.Memory.xml
+D:\User\RMS\WebAPI\bin\System.Net.Http.Formatting.xml
+D:\User\RMS\WebAPI\bin\System.Numerics.Vectors.xml
+D:\User\RMS\WebAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\User\RMS\WebAPI\bin\System.Text.Encodings.Web.xml
+D:\User\RMS\WebAPI\bin\System.Threading.Tasks.Extensions.xml
+D:\User\RMS\WebAPI\bin\System.ValueTuple.xml
+D:\User\RMS\WebAPI\bin\System.Web.Helpers.xml
+D:\User\RMS\WebAPI\bin\System.Web.Http.xml
+D:\User\RMS\WebAPI\bin\System.Web.Http.Cors.xml
+D:\User\RMS\WebAPI\bin\System.Web.Http.WebHost.xml
+D:\User\RMS\WebAPI\bin\System.Web.Mvc.xml
+D:\User\RMS\WebAPI\bin\System.Web.Razor.xml
+D:\User\RMS\WebAPI\bin\System.Web.WebPages.xml
+D:\User\RMS\WebAPI\bin\System.Web.WebPages.Deployment.xml
+D:\User\RMS\WebAPI\bin\System.Web.WebPages.Razor.xml
+D:\User\RMS\WebAPI\bin\System.Web.Optimization.xml
+D:\User\RMS\WebAPI\bin\Antlr3.Runtime.pdb
+D:\User\RMS\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\User\RMS\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
+D:\User\RMS\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+D:\User\RMS\WebAPI\obj\Debug\WebAPI.csproj.Up2Date
+D:\User\RMS\WebAPI\obj\Debug\WebAPI.dll
+D:\User\RMS\WebAPI\obj\Debug\WebAPI.pdb
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\WebAPI.dll.config
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\WebAPI.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\WebAPI.pdb
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\x86\sqlcese40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\x86\sqlceqp40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\x86\sqlceme40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\x86\sqlceer40EN.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\x86\sqlcecompact40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\x86\sqlceca40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\amd64\sqlcese40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\amd64\sqlceqp40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\amd64\sqlceme40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\amd64\sqlceca40.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Data.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Domain.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\EntityFramework.SqlServerCompact.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Buffers.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Memory.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Text.Encodings.Web.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.ValueTuple.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Cors.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\WebGrease.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Data.pdb
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Data.dll.config
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Domain.pdb
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Domain.dll.config
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\EntityFramework.SqlServerCompact.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Options.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Buffers.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Memory.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Text.Encodings.Web.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.ValueTuple.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.csproj.Up2Date
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.pdb
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\WebAPI.dll.config
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\WebAPI.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\WebAPI.pdb
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\x86\sqlcese40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\x86\sqlceqp40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\x86\sqlceme40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\x86\sqlceer40EN.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\x86\sqlcecompact40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\x86\sqlceca40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\amd64\sqlcese40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\amd64\sqlceqp40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\amd64\sqlceme40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\amd64\sqlceca40.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Data.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Domain.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\EntityFramework.SqlServerCompact.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Buffers.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Memory.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Text.Encodings.Web.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.ValueTuple.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Cors.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\WebGrease.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Data.pdb
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Data.dll.config
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Domain.pdb
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Domain.dll.config
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\EntityFramework.SqlServerCompact.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Options.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Buffers.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Memory.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Text.Encodings.Web.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.ValueTuple.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.csproj.Up2Date
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.dll
+C:\Users\Admin\Desktop\RMS (2)\RMS (3)\RMS\WebAPI\obj\Debug\WebAPI.pdb

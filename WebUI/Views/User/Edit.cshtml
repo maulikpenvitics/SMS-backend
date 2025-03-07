@@ -1,0 +1,104 @@
+﻿ @model WebUI.Models.UserViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","User")" class="btn btn-success">User List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "User", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model.Id, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>Username</label>
+@Html.TextBoxFor(model => model.Username, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Username, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Password</label>
+@Html.TextBoxFor(model => model.Password, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Password, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+    <label>Firstname</label>
+    @Html.ValidationMessageFor(model => model.Firstname, null, new { @class = "error" })
+    @Html.TextBoxFor(model => model.Firstname, new { @class = "form-control", required = "required" })
+    @Html.ValidationMessageFor(model => model.Firstname, "", new { @class = "text-danger" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+    <label>Lastname</label>
+    @Html.ValidationMessageFor(model => model.Lastname, null, new { @class = "error" })
+    @Html.TextBoxFor(model => model.Lastname, new { @class = "form-control", required = "required" })
+    @Html.ValidationMessageFor(model => model.Lastname, "", new { @class = "text-danger" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Email</label>
+@Html.TextBoxFor(model => model.Email, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Email, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+    <label>Phone</label>
+    @Html.ValidationMessageFor(model => model.Phone, null, new { @class = "error" })
+    @Html.TextBoxFor(model => model.Phone, new { @class = "form-control", required = "required", pattern = "[0-9]{10}", title = "Phone number must be 10 digits" })
+    @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>property</label>
+@Html.DropDownListFor(model => model.PropertyId, Model.Dropdownproperty," Select property", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.PropertyId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>role</label>
+@Html.DropDownListFor(model => model.RoleId, Model.Dropdownrole," Select role", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.RoleId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 

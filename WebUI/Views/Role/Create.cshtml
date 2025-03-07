@@ -1,0 +1,59 @@
+﻿ @model WebUI.Models.RoleViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ 
+ <script>
+        (function () {
+            ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+          <br />
+            <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","Role")" class="btn btn-success">Role List</a>
+            </div>
+            <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "Role", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="col-sm-4"><div class="form-group">
+<label>Name</label>
+@Html.TextBoxFor(model => model.Name, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.Name, null, new { @class = "error" }) 
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modified By</label>
+@Html.TextBoxFor(model => model.ModifiedBy, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.ModifiedBy, null, new { @class = "error" }) 
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modified Date</label>
+@Html.TextBoxFor(model => model.ModifiedDate, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.ModifiedDate, null, new { @class = "error" }) 
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    
+                    <div class="col-sm-12">
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                   
+                }
+            </div>
+        </div>
+    </div>
+ 

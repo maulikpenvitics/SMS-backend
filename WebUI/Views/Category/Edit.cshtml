@@ -1,0 +1,89 @@
+﻿ @model WebUI.Models.CategoryViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","Category")" class="btn btn-success">Category List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "Category", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model., new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>Id</label>
+@Html.TextBoxFor(model => model.Id, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Id, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Name</label>
+@Html.TextBoxFor(model => model.Name, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Name, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Created By</label>
+@Html.TextBoxFor(model => model.CreatedBy, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.CreatedBy, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modified By</label>
+@Html.TextBoxFor(model => model.ModifiedBy, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.ModifiedBy, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Created Date</label>
+@Html.TextBoxFor(model => model.CreatedDate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.CreatedDate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modified Date</label>
+@Html.TextBoxFor(model => model.ModifiedDate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.ModifiedDate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Is Active</label>
+@Html.TextBoxFor(model => model.IsActive, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.IsActive, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Is Deleted</label>
+@Html.TextBoxFor(model => model.IsDeleted, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.IsDeleted, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 

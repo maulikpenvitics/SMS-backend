@@ -1,0 +1,30 @@
+D:\User\RMS\Domain\bin\Release\Domain.dll.config
+D:\User\RMS\Domain\bin\Release\Domain.dll
+D:\User\RMS\Domain\bin\Release\Domain.pdb
+D:\User\RMS\Domain\bin\Release\EntityFramework.dll
+D:\User\RMS\Domain\bin\Release\EntityFramework.SqlServer.dll
+D:\User\RMS\Domain\bin\Release\EntityFramework.SqlServerCompact.dll
+D:\User\RMS\Domain\bin\Release\System.Data.SqlServerCe.dll
+D:\User\RMS\Domain\bin\Release\EntityFramework.xml
+D:\User\RMS\Domain\bin\Release\EntityFramework.SqlServer.xml
+D:\User\RMS\Domain\bin\Release\EntityFramework.SqlServerCompact.xml
+D:\User\RMS\Domain\obj\Release\Domain.csproj.AssemblyReference.cache
+D:\User\RMS\Domain\obj\Release\Domain.csproj.CoreCompileInputs.cache
+D:\User\RMS\Domain\obj\Release\Domain.csproj.Up2Date
+D:\User\RMS\Domain\obj\Release\Domain.dll
+D:\User\RMS\Domain\obj\Release\Domain.pdb
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\Domain.dll.config
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\Domain.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\Domain.pdb
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\EntityFramework.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\EntityFramework.SqlServerCompact.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\System.Data.SqlServerCe.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\EntityFramework.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\bin\Release\EntityFramework.SqlServerCompact.xml
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\obj\Release\Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\obj\Release\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\obj\Release\Domain.csproj.Up2Date
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\obj\Release\Domain.dll
+C:\Users\Admin\Desktop\RMS (3)\RMS\Domain\obj\Release\Domain.pdb

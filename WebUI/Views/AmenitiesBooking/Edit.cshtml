@@ -1,0 +1,101 @@
+﻿ @model WebUI.Models.AmenitiesBookingViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","AmenitiesBooking")" class="btn btn-success">AmenitiesBooking List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "AmenitiesBooking", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model.Id, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>Property</label>
+@Html.DropDownListFor(model => model.PropertyId, Model.DropdownProperty," Select Property", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.PropertyId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>propertyamenities</label>
+@Html.DropDownListFor(model => model.PropertyAmenitiesId, Model.Dropdownpropertyamenities," Select propertyamenities", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.PropertyAmenitiesId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>User</label>
+@Html.DropDownListFor(model => model.UserId, Model.DropdownUser," Select User", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.UserId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Amenitiesstatus</label>
+@Html.TextBoxFor(model => model.Amenitiesstatus, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Amenitiesstatus, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Availabilitytimeslots</label>
+@Html.TextBoxFor(model => model.Availabilitytimeslots, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Availabilitytimeslots, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Bokingpurpose</label>
+@Html.TextBoxFor(model => model.Bokingpurpose, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Bokingpurpose, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Checkintime</label>
+@Html.TextBoxFor(model => model.Checkintime, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Checkintime, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Checkouttime</label>
+@Html.TextBoxFor(model => model.Checkouttime, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Checkouttime, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 

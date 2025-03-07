@@ -1,0 +1,346 @@
+﻿@model WebUI.Models.ResidentListViewModel
+    @{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+        <div class="container">
+         <br />  <br />
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Resident</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="pull-right">
+                       <a href="@Url.Action("Create","Resident")" class="btn btn-effect-ripple btn-light-blue" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-plus"></i></a>
+
+                        <a href="javacript:void(0)" onclick="openFilterPanel()" class="filterbtn btn btn-effect-ripple btn-light-blue" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-search"></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+           <div class="row">
+                <div class="col-md-12 col-sm-12" style="display:none;" id="filterpanel">
+                    <div class="panel-right panel">
+                        <form>
+                            <div class="switch-filter">
+                                <div>
+                                    Filters
+                                    <label class="switch">
+                                        <input type="checkbox" id="FilterSwitch" name="FilterSwitch">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                                <div class="cleardiv-btn">
+                                    <input onclick="resetFilter();" name="ClearAll" value="Clear All" class="btn btn-default gray-btn pull-right clearAll" />
+                                </div>
+
+                            </div>
+
+                            <div class="form-panel filter-form">
+                                <div class="col-md-4 co-sm-4">
+    <div class="form-group">
+    <label>Password</label>
+    <div class="row">
+    <div class="col-md-12 col-sm-12">
+    <input type="text" name="ResidentPassword" id="ResidentPassword" class="form-control"/>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4 co-sm-4">
+    <div class="form-group">
+    <label>Phoneno</label>
+    <div class="row">
+    <div class="col-md-12 col-sm-12">
+    <input type="text" name="ResidentPhoneno" id="ResidentPhoneno" class="form-control"/>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+                                <div class="clearfix"></div>
+                                <div class="submit-btn">
+                                    <div class="row display-none" style="display:none;">
+                                        <div class="col-md-6">
+                                            <button type="submit" class="btn btn-default form-control gray-btn">Filter</button>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <button id="" class="btn btn-default form-control gray-btn">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+            <script>
+                function openFilterPanel() {
+                    $("#filterpanel").toggle();
+                }
+                function check() {
+                    $("[type='submit']").click();
+                }
+                function resetFilter() {
+                    window.location.href = "/Resident/List";
+                }
+                $("#ResidentPassword").focusout(function () { formSubmit(); });
+    $("#ResidentPhoneno").focusout(function () { formSubmit(); });
+
+
+
+                function formSubmit() {
+                    if ($("#FilterSwitch").is(":checked") == true) {
+                        $("[type='submit']").click();
+                    }
+                }
+                $(document).ready(function () {
+                  $.noConflict();
+                $('#list_Tbl').DataTable();
+                    if (window.location.href.split('FilterSwitch=').length > 2) {
+                        $(".k-switch.kendo-switch").attr("aria-checked", true);
+                        $(".k-switch.kendo-switch").toggleClass("k-switch-off k-switch-on");
+                        $("#FilterSwitch").prop("checked", true);
+                        openFilterPanel();
+                    }
+                    $(".k-switch.kendo-switch").attr("onclick", "check();");
+
+                });
+                 function Confirmition(RemoveId) {
+                    if (window.confirm('Are you sure remove?')) {
+                        window.location.href = '/Resident/Delete/' + RemoveId;
+                    }
+                }
+            </script>
+          <br />  <br />
+            <div class="row">
+
+                <div class="col-12">
+                 <div class="table-responsive pd-1">
+                  <table class="table table-bordered mb-0 table-centered" id="list_Tbl">
+                  <thead>
+                                <tr>
+                                   <th class="text-center" style="width:auto"><b>Username</b></th>
+    <th class="text-center" style="width:auto"><b>Full Name</b></th>
+    <th class="text-center" style="width:auto"><b>Email</b></th>
+    <th class="text-center" style="width:auto"><b>Phone no</b></th>
+    <th class="text-center" style="width:auto"><b>Property </b></th>
+    <th class="text-center" style="width:auto"><b>Block</b></th>
+
+                                    <th class="text-center" style="width:7%"><b>Action</b></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            @if (Model.List.Count > 0)
+                                {
+                                    foreach (var item in Model.List)
+                                    {
+                                        <tr>
+                                            <td>@item.Username</td>
+    <td>@item.Firstname @item.Lastname</td>
+    <td>@item.Email</td>
+    <td>@item.Phoneno</td>
+    <td>@item.PropertyName</td>
+    <td>@item.Blockname</td>
+
+                                            <td class="text-right">
+                                                <a href="@Url.Action("Edit", "Resident", new { Id=@item.Id })"> <i class="fa fa-edit"></i></a>
+                                                &nbsp;
+                                                <a onclick="Confirmition(@item.Id)"> <i class="fa fa-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+
+                            </tbody>
+                  </table>
+                 </div>
+
+                </div>
+            </div>
+        </div>
+
+
+@*@model WebUI.Models.ResidentListViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- jQuery (Required for jsTree) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- jsTree -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/themes/default/style.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.12/jstree.min.js"></script>
+
+<div class="container">
+    <br /><br />
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Resident</h2>
+        </div>
+        <div class="col-md-6">
+            <div class="pull-right">
+                <a href="@Url.Action("Create","Resident")" class="btn btn-effect-ripple btn-light-blue" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-plus"></i></a>
+                <a href="javascript:void(0)" onclick="openFilterPanel()" class="filterbtn btn btn-effect-ripple btn-light-blue" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-search"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12" style="display:none;" id="filterpanel">
+            <div class="panel-right panel">
+                <form>
+                    <div class="switch-filter">
+                        <div>
+                            Filters
+                            <label class="switch">
+                                <input type="checkbox" id="FilterSwitch" name="FilterSwitch">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                        <div class="cleardiv-btn">
+                            <input onclick="resetFilter();" name="ClearAll" value="Clear All" class="btn btn-default gray-btn pull-right clearAll" />
+                        </div>
+                    </div>
+                    <div class="form-panel filter-form">
+                        <div class="col-md-4 co-sm-4">
+                            <div class="form-group">
+                                <label>Password</label>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <input type="text" name="ResidentPassword" id="ResidentPassword" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 co-sm-4">
+                            <div class="form-group">
+                                <label>Phoneno</label>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <input type="text" name="ResidentPhoneno" id="ResidentPhoneno" class="form-control" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="submit-btn">
+                            <div class="row display-none" style="display:none;">
+                                <div class="col-md-6">
+                                    <button type="submit" class="btn btn-default form-control gray-btn">Filter</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button id="" class="btn btn-default form-control gray-btn">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="jstree"></div>
+    <p id="residentName"></p>
+    <script>
+        $(document).ready(function () {
+            let treeData = [
+                {
+                    "id": "xyz_residency",
+                    "text": "XYZ Residency",
+                    "state": { "opened": true },
+                    "children": [
+                        {
+                            "id": "block_a",
+                            "text": "Block A",
+                            "children": [
+                                { "id": "unit_a1", "text": "Unit A1", "data": { "blockId": 1, "unitId": 1 } },
+                                { "id": "unit_a2", "text": "Unit A2", "data": { "blockId": 1, "unitId": 2 } }
+                            ]
+                        },
+                        {
+                            "id": "block_b",
+                            "text": "Block B",
+                            "children": [
+                                { "id": "unit_b1", "text": "Unit B1", "data": { "blockId": 2, "unitId": 3 } },
+                                { "id": "unit_b2", "text": "Unit B2", "data": { "blockId": 2, "unitId": 4 } }
+                            ]
+                        }
+                    ]
+                }
+            ];
+
+            $('#jstree').jstree({
+                "core": {
+                    "data": treeData,
+                    "themes": { "icons": false }
+                }
+            });
+
+            $('#jstree').on("select_node.jstree", function (e, data) {
+                let selectedNode = data.node;
+                if (selectedNode.data && selectedNode.data.blockId && selectedNode.data.unitId) {
+                    let blockId = selectedNode.data.blockId;
+                    let unitId = selectedNode.data.unitId;
+
+                    $.ajax({
+                        url: "/Resident/GetResidentByBlockAndUnit",
+                        type: "GET",
+                        data: { blockId: blockId, unitId: unitId },
+                        success: function (response) {
+                            if (response) {
+                                $("#residentName").text("Resident: " + response);
+                            } else {
+                                $("#residentName").text("No resident found.");
+                            }
+                        },
+                        error: function () {
+                            $("#residentName").text("Error fetching resident.");
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+    <br /><br />
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive pd-1">
+                <table class="table table-bordered mb-0 table-centered" id="list_Tbl">
+                    <thead>
+                        <tr>
+                            <th class="text-center" style="width:auto"><b>Username</b></th>
+                            <th class="text-center" style="width:auto"><b>Full Name</b></th>
+                            <th class="text-center" style="width:auto"><b>Email</b></th>
+                            <th class="text-center" style="width:auto"><b>Phone no</b></th>
+                            <th class="text-center" style="width:auto"><b>Property </b></th>
+                            <th class="text-center" style="width:auto"><b>Block</b></th>
+                            <th class="text-center" style="width:7%"><b>Action</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.List)
+                        {
+                            <tr>
+                                <td>@item.Username</td>
+                                <td>@item.Firstname @item.Lastname</td>
+                                <td>@item.Email</td>
+                                <td>@item.Phoneno</td>
+                                <td>@item.PropertyName</td>
+                                <td>@item.Blockname</td>
+                                <td class="text-right">
+                                    <a href="@Url.Action("Edit", "Resident", new { Id=@item.Id })"> <i class="fa fa-edit"></i></a>
+                                    &nbsp;
+                                    <a onclick="Confirmition(@item.Id)"> <i class="fa fa-trash"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>*@

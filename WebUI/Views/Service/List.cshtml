@@ -1,0 +1,136 @@
+﻿@model WebUI.Models.ServiceListViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ 
+    <div class="container">
+     <br />  <br />
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Service</h2>
+            </div>
+            <div class="col-md-6">
+                <div class="pull-right">
+                   <a href="@Url.Action("Create","Service")" class="btn btn-effect-ripple btn-light-blue" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-plus"></i></a>
+
+                    <a href="javacript:void(0)" onclick="openFilterPanel()" class="filterbtn btn btn-effect-ripple btn-light-blue" data-toggle="tooltip" title="" data-original-title=""><i class="fa fa-search"></i></a>
+
+                </div>
+            </div>
+
+        </div>
+       <div class="row">
+            <div class="col-md-12 col-sm-12" style="display:none;" id="filterpanel">
+                <div class="panel-right panel">
+                    <form>
+                        <div class="switch-filter">
+                            <div>
+                                Filters
+                                <label class="switch">
+                                    <input type="checkbox" id="FilterSwitch" name="FilterSwitch">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <div class="cleardiv-btn">
+                                <input onclick="resetFilter();" name="ClearAll" value="Clear All" class="btn btn-default gray-btn pull-right clearAll" />
+                            </div>
+
+                        </div>
+
+                        <div class="form-panel filter-form">
+                            
+                             
+                            <div class="clearfix"></div>
+                            <div class="submit-btn">
+                                <div class="row display-none" style="display:none;">
+                                    <div class="col-md-6">
+                                        <button type="submit" class="btn btn-default form-control gray-btn">Filter</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button id="" class="btn btn-default form-control gray-btn">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+        <script>
+            function openFilterPanel() {
+                $("#filterpanel").toggle();
+            }
+            function check() {
+                $("[type='submit']").click();
+            }
+            function resetFilter() {
+                window.location.href = "/Service/List";
+            }
+            
+            
+
+            function formSubmit() {
+                if ($("#FilterSwitch").is(":checked") == true) {
+                    $("[type='submit']").click();
+                }
+            }
+            $(document).ready(function () {
+              $.noConflict();
+            $('#list_Tbl').DataTable();
+                if (window.location.href.split('FilterSwitch=').length > 2) {
+                    $(".k-switch.kendo-switch").attr("aria-checked", true);
+                    $(".k-switch.kendo-switch").toggleClass("k-switch-off k-switch-on");
+                    $("#FilterSwitch").prop("checked", true);
+                    openFilterPanel();
+                }
+                $(".k-switch.kendo-switch").attr("onclick", "check();");
+
+            });
+             function Confirmition(RemoveId) {
+                if (window.confirm('Are you sure remove?')) {
+                    window.location.href = '/Service/Delete/' + RemoveId;
+                }
+            }
+        </script>
+      <br />  <br />
+        <div class="row">
+           
+            <div class="col-12">
+             <div class="table-responsive pd-1">
+              <table class="table table-bordered mb-0 table-centered" id="list_Tbl">
+              <thead>
+                            <tr>
+                               <th class="text-center" style="width:auto"><b>Modifiedby</b></th>
+<th class="text-center" style="width:auto"><b>Modifieddate</b></th>
+
+                                <th class="text-center" style="width:7%"><b>Action</b></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @if (Model.List.Count > 0)
+                            {
+                                foreach (var item in Model.List)
+                                {
+                                    <tr>
+                                        <td>@item.Modifiedby</td>
+<td>@item.Modifieddate</td>
+
+                                        <td class="text-right">
+                                            <a href="@Url.Action("Edit", "Service", new { Id=@item.Id })"> <i class="fa fa-edit"></i></a>
+                                            &nbsp;
+                                            <a onclick="Confirmition(@item.Id)"> <i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                             
+                        </tbody>
+              </table>
+             </div>
+                 
+            </div>
+        </div>
+    </div>
+ 

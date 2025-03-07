@@ -1,0 +1,83 @@
+﻿ @model WebUI.Models.SecurityViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","Security")" class="btn btn-success">Security List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "Security", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model.Id, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>Resident</label>
+@Html.DropDownListFor(model => model.ResidentId, Model.DropdownResident," Select Resident", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.ResidentId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>User</label>
+@Html.DropDownListFor(model => model.UserId, Model.DropdownUser," Select User", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.UserId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Vendor</label>
+@Html.DropDownListFor(model => model.VendorId, Model.DropdownVendor," Select Vendor", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.VendorId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Incidence</label>
+@Html.TextBoxFor(model => model.Incidence, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Incidence, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Securitydesc</label>
+@Html.TextBoxFor(model => model.Securitydesc, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Securitydesc, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 

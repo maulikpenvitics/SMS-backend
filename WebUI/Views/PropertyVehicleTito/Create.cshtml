@@ -1,0 +1,71 @@
+﻿ @model WebUI.Models.PropertyVehicleTitoViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ 
+ <script>
+        (function () {
+            ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+          <br />
+            <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","PropertyVehicleTito")" class="btn btn-success">PropertyVehicleTito List</a>
+            </div>
+            <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "PropertyVehicleTito", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="col-sm-4"><div class="form-group">
+<label>PropertyVehicle</label>
+ @Html.DropDownListFor(model => model.PropertyVehicleId, Model.DropdownPropertyVehicle," Select PropertyVehicle", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.PropertyVehicleId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Checkintime</label>
+@Html.TextBoxFor(model => model.Checkintime, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.Checkintime, null, new { @class = "error" }) 
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Checkouttime</label>
+@Html.TextBoxFor(model => model.Checkouttime, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.Checkouttime, null, new { @class = "error" }) 
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class = "error" }) 
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class ="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class = "error" }) 
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    
+                    <div class="col-sm-12">
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                   
+                }
+            </div>
+        </div>
+    </div>
+ 

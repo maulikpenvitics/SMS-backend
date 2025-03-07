@@ -1,0 +1,95 @@
+﻿ @model WebUI.Models.VendorInvoiceViewModel
+ @{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+ <script>
+        (function () {
+             ("form").validate();
+        });
+    </script>
+    <div class="container">
+        <div class="row">
+         <br />
+            <br />
+            <div class="col-12">
+                <a href="@Url.Action("List","VendorInvoice")" class="btn btn-success">VendorInvoice List</a>
+            </div>
+              <br />
+            <div class="col-12">
+                @using (Html.BeginForm("Submit", "VendorInvoice", FormMethod.Post))
+                {
+                    <div class="col-sm-12">
+                    <div class="form-group" hidden>
+                        <label>Id</label>
+                         @Html.TextBoxFor(model => model.Id, new { @class = "form-control" })
+                    </div>
+                    <div class="col-sm-4"><div class="form-group">
+<label>vendor</label>
+@Html.DropDownListFor(model => model.VendorId, Model.Dropdownvendor," Select vendor", new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.VendorId, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Invoicedate</label>
+@Html.TextBoxFor(model => model.Invoicedate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Invoicedate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Todate</label>
+@Html.TextBoxFor(model => model.Todate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Todate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Amount</label>
+@Html.TextBoxFor(model => model.Amount, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Amount, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Duedate</label>
+@Html.TextBoxFor(model => model.Duedate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Duedate, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Tax</label>
+@Html.TextBoxFor(model => model.Tax, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Tax, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Net Amount</label>
+@Html.TextBoxFor(model => model.NetAmount, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.NetAmount, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifiedby</label>
+@Html.TextBoxFor(model => model.Modifiedby, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifiedby, null, new { @class="error" })
+</div>
+</div>
+<div class="col-sm-4"><div class="form-group">
+<label>Modifieddate</label>
+@Html.TextBoxFor(model => model.Modifieddate, new { @class="form-control" })
+@Html.ValidationMessageFor(model => model.Modifieddate, null, new { @class="error" })
+</div>
+</div>
+
+                    @if (ViewBag.error != "")
+                    {
+                        <div>
+                            @ViewBag.error
+                        </div>
+                    }
+                    </div>
+                    <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+ 
